@@ -1,27 +1,27 @@
 body{
-background-size: cover;
-}
-
-.heading{
-width: 100%;
-margin: 0px;
-font-size: 25px;
-}
-#number_of_object,#status,#Start{
-    font-size: 18px;
-}
-canvas{
-    border: 5px solid whitesmoke;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px turquoise;
-}
-.footer_div{
-    position: fixed;
-    bottom: 0px;
+    background-size: contain;
+    }
+    
+    .heading{
     width: 100%;
-    background: linear-gradient(black 10%, white 50%, blue 100%);
-    line-height: 3;
-    color: red;
-    text-align: center;
-    font-weight: bold;
-}
+    margin: 0px;
+    font-size: 25px;
+    }
+    #number_of_object,#status,#Start{
+        font-size: 18px;
+    }
+    canvas{
+        border: 5px solid rgb(131, 238, 167);
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px rgb(64, 224, 211);
+    }
+    .footer_div{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background: linear-gradient(lightgreen 10%, white 50%, lightblue 100%);
+        line-height: 3;
+        color: rebeccapurple;
+        text-align: center;
+        font-weight: bold;
+    }
